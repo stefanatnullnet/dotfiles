@@ -6,8 +6,12 @@ A collection of my personal dotfiles
 
 Display the contents of the directory as [tree-like structure](https://raw.githubusercontent.com/stefanatnullnet/dotfiles/main/tree) in plain text
 
+Installation
+------------
+**Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
+
 Use Apprentice colors
------------------
+---------------------
 To get the most out of my dotfiles I recommend installing [Apprentice theme](https://romainl.github.io/Apprentice/)on your system. This will allow you to have unified colors in all your command line applications. If you see that some colors are off when using my setup, set your terminal emulator to use the Apprentice colorscheme instead of its default colors.
 
 Additional configuration
