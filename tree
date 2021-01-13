@@ -1,0 +1,22 @@
+.
+├── bash_logout
+├── bashrc
+├── config
+│   ├── nvim
+│   │   ├── colors
+│   │   │   └── apprentice.vim
+│   │   └── init.vim
+│   └── xfce4
+│       └── terminal
+│           ├── accels.scm
+│           └── terminalrc
+├── cwmrc
+├── profile
+├── README.md
+├── scripts
+├── tmux.conf
+├── tree
+├── Xdefaults
+└── xinitrc
+
+6 directories, 13 files
