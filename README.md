@@ -6,6 +6,29 @@ A collection of my personal dotfiles
 
 Display the contents of the directory as [tree-like structure](https://raw.githubusercontent.com/stefanatnullnet/dotfiles/main/tree) in plain text
 
+Contents
+--------
+
+├── bash_logout
+├── bashrc
+├── config
+│   ├── nvim
+│   │   ├── colors
+│   │   │   └── apprentice.vim
+│   │   └── init.vim
+│   └── xfce4
+│       └── terminal
+│           ├── accels.scm
+│           └── terminalrc
+├── cwmrc
+├── profile
+├── README.md
+├── scripts
+├── tmux.conf
+├── tree
+├── Xdefaults
+└── xinitrc
+
 Details
 -------
 
