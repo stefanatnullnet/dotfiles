@@ -4,7 +4,7 @@
 A collection of my personal dotfiles
 ------------------------------------
 This repository includes my user dotfiles, as well as other files outside of ~/ that I consider a crucial part of my system.
-**Crucial Note:** These dotfiles are primarely maintained for personal use so I can't guarantee everything will work out of the box. It's possible you'll run into errors because you use a different shell, have missing dependencies, or because of other reasons. Feel free to resolve the errors in whatever way is most convenient and optionally contribute them back to here.
+ These files are primarely maintained for personal use so I can't guarantee everything will work out of the box. It's possible you'll run into errors because you use a different shell, have missing dependencies, or because of other reasons. Feel free to resolve the errors in whatever way is most convenient and optionally contribute them back to here.
 
 
 Display the contents of the directory as [tree-like structure](https://raw.githubusercontent.com/stefanatnullnet/dotfiles/main/tree) in plain text
