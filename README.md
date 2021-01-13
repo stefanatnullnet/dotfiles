@@ -3,31 +3,11 @@
 
 A collection of my personal dotfiles
 ------------------------------------
+This repository includes my user dotfiles, as well as other files outside of ~/ that I consider a crucial part of my system.
+**Crucial Note:** These dotfiles are primarely maintained for personal use so I can't guarantee everything will work out of the box. It's possible you'll run into errors because you use a different shell, have missing dependencies, or because of other reasons. Feel free to resolve the errors in whatever way is most convenient and optionally contribute them back to here.
+
 
 Display the contents of the directory as [tree-like structure](https://raw.githubusercontent.com/stefanatnullnet/dotfiles/main/tree) in plain text
-
-Contents
---------
-
-├── bash_logout
-├── bashrc
-├── config
-│   ├── nvim
-│   │   ├── colors
-│   │   │   └── apprentice.vim
-│   │   └── init.vim
-│   └── xfce4
-│       └── terminal
-│           ├── accels.scm
-│           └── terminalrc
-├── cwmrc
-├── profile
-├── README.md
-├── scripts
-├── tmux.conf
-├── tree
-├── Xdefaults
-└── xinitrc
 
 Details
 -------
@@ -52,7 +32,7 @@ Details
 
 Installation
 ------------
-**Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
+**Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Most of the aliases and methods should be pretty self-explanatory. Everything is grouped by category and either has self-explanatory code, a usage message, or a comment that explains what it does and why. If you see anything that is unclear feel free to clear it up by e.g. adding an extra comment and opening up a pull request. If you like some things but not others you can also cherry-pick the parts you like.
 
 Use Apprentice colors
 ---------------------
