@@ -1,7 +1,7 @@
 A collection of my personal dotfiles
 ------------------------------------ 
 
-This repository holds my dotfiles and other files outside of ~/ that I consider
+This repository holds my dotfiles and other crap outside of ~/ that I consider
 a fundamental part of my Debian system. These files are mostly supported for
 personal use, so I can not ensure that everything will work out of the box. You
 may run into errors because you use a different shell, have missing
