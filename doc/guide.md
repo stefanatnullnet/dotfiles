@@ -12,10 +12,10 @@ command assumes the disk is recognized as sdb (check dmesg to verify):
 ` dd if=debian-10.7.0-amd64-netinst.iso of=/dev/sdb bs=1m `
 
 If you are a Windows user (I'm not), I would recommend to download 
-a portable version of [Rufus](https://rufus.ie/) and do your own research on how to use it.
+a portable version of [Rufus](https://rufus.ie/) and do your own [research](https://www.google.com/search?ei=BpwBYMa8IqyWlwSF25j4Cg&q=How+to+Create+a+Bootable+USB+Using+Rufus&oq=How+to+Create+a+Bootable+USB+Using+Rufus&gs_lcp=CgZwc3ktYWIQAzIFCAAQyQMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgAEEdQ0m1Y0m1gxHBoAHAGeACAAWSIAWSSAQMwLjGYAQCgAQKgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjG14z4iJ7uAhUsy4UKHYUtBq8Q4dUDCA0&uact=5) on how to use it.
 
 Boot your laptop from the USB installer. This guide presumes you're booting
-via UEFI. If your laptop has any "BIOS compatibility mode" options, you
+via [UEFI](https://www.google.com/search?q=UEFI&oq=UEFI&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8). If your laptop has any ["BIOS compatibility mode"](https://www.google.com/search?q=BIOS+compatibility+mode&oq=BIOS+compatibility+mode&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8) options, you
 should disable them (for more info - look here: ). Debian boots freely
 in pure UEFI mode. 
 
