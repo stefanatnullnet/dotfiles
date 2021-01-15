@@ -11,14 +11,17 @@ command assumes the disk is recognized as sdb (check dmesg to verify):
 
 ` dd if=debian-10.7.0-amd64-netinst.iso of=/dev/sdb bs=1m `
 
-Boot your laptop to the USB installer. This guide presumes you're booting
+If you are a Windows user (I'm not), I would recommend to download 
+a portable version of [Rufus](https://rufus.ie/) and do your own research on how to use it.
+
+Boot your laptop from the USB installer. This guide presumes you're booting
 via UEFI. If your laptop has any "BIOS compatibility mode" options, you
 should disable them (for more info - look here: ). Debian boots freely
 in pure UEFI mode. 
 
 ## Booting ##
-For a standard installation, you only need to choose Install or
-Graphical install (with the arrow keys), then press the Return (Enter
+For a standard installation, you only need to choose *Install* or
+*Graphical install* (with the arrow keys), then press the Return (Enter
 key) to launch the rest of the installation process. I use the
 Graphical install option. The only difference from the "classic" (text
 mode) installation is in the visual aspect. 
