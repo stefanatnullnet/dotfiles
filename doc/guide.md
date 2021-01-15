@@ -1,4 +1,4 @@
-# How to install and configure a minimalistic Debian desktop system #
+# Minimalistic Debian Laptop #
 
 ## Installation ##
 Debian has one of the most user-friendly installers in the
@@ -11,8 +11,8 @@ command assumes the disk is recognized as sdb (check dmesg to verify):
 
 ` dd if=debian-10.7.0-amd64-netinst.iso of=/dev/sdb bs=1m `
 
-Boot your pc to the USB installer. This guide presumes you're booting
-via UEFI. If your pc has any "BIOS compatibility mode" options, you
+Boot your laptop to the USB installer. This guide presumes you're booting
+via UEFI. If your laptop has any "BIOS compatibility mode" options, you
 should disable them (for more info - look here: ). Debian boots freely
 in pure UEFI mode. 
 
