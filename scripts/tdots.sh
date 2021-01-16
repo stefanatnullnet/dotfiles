@@ -1,23 +1,23 @@
 #!/bin/sh
 
-session="dotfiles"
-workingdir="$HOME/repos/dotfiles"
-lastedited=$(find "$workingdir" -type f -exec stat -c "%y %n" {} + | sort -r | head -n1 | cut -d " " -f 4-)
+SESSION="dotfiles"
+WORKDIR="$HOME/repos/dotfiles"
+LASTEDITED=$(find "$WORKDIR" -type f -exec stat -c "%y %n" {} + | sort -r | head -n1 | cut -d " " -f 4-)
 
-cd "$workingdir"
+cd "$WORKDIR"
 
 set -e
 
-if tmux has-session -t=$session 2> /dev/null; then
-  tmux attach -t $session
+if tmux has-session -t=$SESSION 2> /dev/null; then
+  tmux attach -t $SESSION
   exit
 fi
 
-tmux new-session -d -s "$session" -n vim -x "$(tput cols)" -y "$(tput lines)"
+tmux new-session -d -s "$SESSION" -n vim -x "$(tput cols)" -y "$(tput lines)"
 
-tmux split-window -t $session:vim -h
+tmux split-window -t $SESSION:vim -h
 
-tmux send-keys -t $session:vim.left "nvim $lastedited -c CommandT" Enter
-tmux send-keys -t $session:vim.right "git status" Enter
+tmux send-keys -t $SESSION:vim.left "nvim $LASTEDITED -c CommandT" Enter
+tmux send-keys -t $SESSION:vim.right "git status" Enter
 
-tmux attach -t $session:vim.right
+tmux attach -t $SESSION:vim.right
