@@ -16,8 +16,11 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+# make unlimited bash history
+HISTSIZE=
+HISTFILESIZE=
+# do not log commands starting with an empty space
+export HISTCONTROL=$HISTCONTROL:ignorespace
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
